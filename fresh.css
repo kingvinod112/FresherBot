@@ -1,0 +1,395 @@
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 94.2px;
+    padding-left: 105px;
+    margin: 0px;
+    box-shadow: #aaa3a35d 0px 1.6px 2px;
+    height: 38px;
+   
+   
+}
+
+#f1{
+    
+    height: 32px;
+    
+   
+}
+.ch1{
+    padding-left: 2.4px;
+   margin-bottom: 3px;
+  
+}
+.ch2{
+    display: flex;
+    gap: 22px;
+    padding-right:0px;
+    padding-left: 110px;
+    margin-right: 10.8px;
+    margin-top:1px;
+    
+}
+
+.txt{
+    color:rgb(3, 92, 148);
+    
+    font-weight:600 ;
+    font-size: 16px;
+   list-style: none;
+   padding-bottom: 8px;
+   
+  
+   padding-right: 2px;
+   transition-duration: 0.2s;
+    
+}
+
+
+.txt:hover{
+    
+    color: #000;
+    transform: scale(1.1);
+
+}
+a{
+    text-decoration: none;
+}
+.img1{
+    width: 544px;
+    height: 311px;
+    padding-left: 106.5px;
+    padding-top: 38px;
+}
+.pis{
+    display: flex;
+    margin-top: 17.9px;
+    margin-bottom: 56.8px;
+
+}
+#wds{
+    /* align-items: center; */
+   margin-left: 76px;
+   margin-top: 66px;
+}
+li{
+    list-style: none;
+}
+.li3{
+    
+    display: flex;
+    
+   /* font-weight: 30px ; */
+    margin-top: 26px; 
+    margin-left: -8px;
+
+   
+    
+}
+.box1{
+    border-radius:1px;
+    
+    text-align: center;
+    font-size: 18px;
+    color: #005887;
+    font-weight: 640;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left:16px ;
+    padding-right: 16px;
+   
+    box-shadow: 0px 1px 4px rgba(128, 128, 128, 0.305);
+   margin-right: 18px;
+    background-color: #a6e0f379;
+}
+.btn{
+    
+    height: 32.6px;
+    width: 184px;
+    font-size: 16px;
+    margin-top: 26px;
+  margin-right: 28px;
+  padding-top: 8px;
+   
+    border: none;
+    color: white;
+    background-color: #1d79ab;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: rgb(38, 198, 38);
+    transform: translatex(5px);
+            transform: translatey(-5px);
+    
+}
+
+.btns{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}   
+ .p1{
+    
+    margin-left: 32px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    padding-top: 10px;
+    /* position: absolute; */
+    font-weight: 460;
+    font-size: 20px;
+    
+}
+.dream{
+    font-weight: 800;
+    /* padding-top: 10px; */
+    margin-top: -6px;
+    margin-bottom: 2px;
+   
+    color: #0a689a;
+
+    font-size: 36px;
+    
+    
+}
+/* -----------------2nd part-------------------- */
+
+
+.ch3{
+    background-color: rgba(111, 171, 204, 0.163);
+    height: 492px;
+}
+.latest{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 28.8px;
+    padding-top: 38px;
+    margin-bottom: -6px;
+}
+.col1{
+    display: grid;
+    /* background-color: #870000; */
+    gap: 18.8px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 180px;
+    margin-left: 100px;
+    
+    
+   
+}
+.box3{
+   background-color: rgb(255, 255, 255); 
+   width: 376px;
+   height: 140px;
+   border-radius: 4.8px;
+   box-shadow: -2px 0px 1px rgb(37, 150, 224) ;
+   
+}
+.active{
+    background-color: rgb(30, 227, 30);
+    color: white;
+   margin-left: 301.5px;
+   margin-right: 20px;
+   position: relative;
+   top: 12px;
+  
+  text-align: center;
+   width: 60px;
+   height: 28px;
+   
+ 
+   border-radius: 6px;
+
+    
+}
+
+.pra1{
+    color: rgb(28, 28, 195);
+    font-size: 18px;
+    font-weight: 500px;
+    margin-top: -18px;
+    margin-left: 10px;
+    /* margin-right: 38px;
+    padding-bottom: 80px; */
+}
+.pra1:hover{
+    color: #042f6e;
+}
+.loc1{
+   position: relative;
+   top:2.8px;
+}
+.loc{
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(66, 67, 67);
+    margin-left: 10px;
+  
+}
+.arrow{
+    font-size: 18px;
+    margin-left: 100px;
+    margin-bottom: 0;
+   
+   
+}
+.arrow1{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+/* -----------3rd Part--------------- */
+
+.ch4{
+    height: 500px;
+    margin-bottom: 80px;
+}
+
+.why{
+    text-align: center;
+    color:rgb(17, 17, 108) ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    margin-top: 48px;
+    
+}
+.b3{
+    display: flex;
+   margin-left: 74px;
+}
+.bx3{
+    height: auto;
+    width: 360px;
+   box-shadow: 0.4px 8px 6px rgba(128, 128, 128, 0.364);
+    margin-left: 26px;
+    border-radius: 16px;
+    transition: 0.2s;
+}
+.bx3:hover{
+    /* transform: translateX(5px); */
+    transform: translateY(-5px);
+}
+.pic3{
+    position: relative;
+    top:36px;
+    left: 260px;
+}
+
+.head1{
+    position: relative;
+    top: 78px;
+    color: rgb(151, 19, 19);
+    font-weight: 600;
+    left: 30px;
+    font-size:20px;
+    
+}
+.bxp{
+    color: #00000098;
+    position: relative;
+    top:80px;
+    height: 360px;
+    width:250px;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 500px;
+    font-style: italic;
+    word-spacing:10px;
+      
+
+}
+/* --------------Last Section------- */
+
+.last{
+    background-color: #6ec7d98a;
+    height: 440px;
+   
+}
+.titl{
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 510px;
+    
+    padding-top: 32px;
+    font-size: 30px;
+    color: #045480;
+
+}
+.lbx3{
+    display: flex;
+    margin-left:90px ;
+    margin-top: 40px;
+
+}
+.bxs3{
+    
+    background-color: white;
+   border: solid 2px rgba(61, 158, 187, 0.718);
+    height: 280px;
+    width: 320px;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.lhead{
+    text-align: center;
+    color: #176189;
+    font-size: 20px;
+}
+
+.l3{
+    /* background-color: red; */
+    height: 40px;
+    width: 260px;
+    margin-top: 8px;
+    margin-left:20px;
+    box-shadow: 0.6px 4px 4px rgba(128, 128, 128, 0.678);
+    transition: 0.2s;
+    padding-left: 20px;
+    font-weight: 600;
+    
+    
+}
+.l3:hover{
+    transform:translateX(5px);
+   
+}
+.limg{
+    position: relative;
+    top: 6px;
+    left: 0px;
+}
+
+/* ------------FOOTER--------------- */
+footer{
+    height: 400px;
+    background-color: rgb(4, 51, 72);
+    font-weight: 500;
+    color:white;
+}
+
+.fh{
+margin-bottom:40px;
+   margin-top: 60px;
+ 
+
+}
+.fdata{
+    display: flex;
+    margin-left:80px;
+    justify-content: space-evenly;
+}
+.lisp{
+    margin-bottom: 14px;
+    color:white;
+}
